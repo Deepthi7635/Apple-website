@@ -1,0 +1,92 @@
+#main{
+   /* border: 2px solid;*/
+    margin-top:40px;
+    padding-top: 125px;
+    
+    height: 90vh;
+    background-image: url("../image/apple3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-size: cover;
+    
+    
+
+    
+}
+#main p{
+    padding-top: 250px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    color:#1d1d1f;
+}
+
+#main button{
+    text-align: center;
+    margin-left: 535px;
+    margin-top: 10px;
+    padding: 21px;
+    border-radius: 50px;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #0071E3;
+
+}
+#main, #main button:hover{
+    cursor: pointer;
+
+}
+
+#main1{
+  /*  border: 3px solid blue;*/
+   /* position:relative;
+    top:0px;*/
+    margin-top: 30px;
+    height: 80vh;
+    background-image: url("../image/image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#main1 h2{
+    margin-top:30px;
+    margin-left: 570px;
+    padding:10px 20px;
+    font-size: 48px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue",;
+    font-weight: 600;
+
+}
+#main1 h2 span{
+    margin-top:30px;
+   /* margin-left: 570px;*/
+   /* padding:5px 20px;*/
+    font-size: 48px;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue",;
+    font-weight: 600;
+    color:rgb(0,102,204);
+    
+
+}
+#main1 p{
+    padding-top: 5px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    color:#1d1d1f;
+    
+}
+
+#main1 button{
+    text-align: center;
+    margin-left: 635px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    background-color: #eaebec;
+    
+
+}

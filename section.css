@@ -1,0 +1,215 @@
+#section1{
+  /*  border: 3px solid red;*/
+    margin-top: 10px;
+    height:90vh;
+    display: flex;
+    gap: 8px;
+
+}
+
+#left{
+   /* border:5px solid blue;*/
+    height: inherit;
+    flex:1;
+    background-image: url("./image/airpods.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: Flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+    cursor: pointer;
+}
+#left h3{
+    font-size: 40px;
+    font-weight: 600;
+    color:#1d1d1f;
+
+}
+#left p{
+    font-size:19px;
+    font-weight: 400;
+    color:rgb(29,29,31);
+    padding-top: 10px;
+}
+#left div{
+    margin-top: 20px;
+
+}
+#left div button{
+    padding: 12px 17px;
+    border-radius: 50px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #0071e3;
+    color:#fff;
+    cursor: pointer;
+
+}
+#left div button + button{
+    margin-left: 15px;
+    background: none;
+    border:1px solid #0071e3;
+    color: #0071e3;
+
+
+}
+#left div button + button:hover{
+    background-color: #0071e3;
+    color:#fff;
+
+}
+#right{
+    /*border: 5px solid green;*/
+    height: inherit;
+    flex: 1;
+    background-image: url("./image/Aseries.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: Flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+    cursor: pointer;
+}
+#right h3{
+    font-size: 32px;
+    font-weight: 600;
+    color:rgb(245,245,247);
+}
+#right p{
+    font-size:19px;
+    font-weight: 400;
+    color:rgb(245,245,247);
+    padding-top: 10px;
+}
+
+#right p +center{
+    font-size:19px;
+    font-weight: 400;
+    color:rgb(245,245,247);
+    padding-top: 10px;
+}
+#right  button{
+    margin-top: 10px;
+    padding: 12px 17px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #fff;
+    color:#1d1d1f;
+    
+
+}
+
+#section2{
+  /*  border: 3px solid red;*/
+    margin-top: 10px;
+    height:90vh;
+    display: flex;
+    gap: 8px;
+
+}
+
+#left1{
+   /* border:5px solid blue;*/
+    height: inherit;
+    flex:1;
+    background-image: url("./image/macbook.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: Flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+    cursor: pointer;
+}
+#left1 h3{
+    font-size: 40px;
+    font-weight: 600;
+    color:#1d1d1f;
+
+}
+#left1 p{
+    font-size:19px;
+    font-weight: 400;
+    color:rgb(29,29,31);
+    padding-top: 10px;
+}
+#left1 div{
+    margin-top: 20px;
+
+}
+#left1 div button{
+    padding: 12px 17px;
+    border-radius: 50px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #0071e3;
+    color:#fff;
+    cursor: pointer;
+
+}
+#left1 div button + button{
+    margin-left: 15px;
+    background: none;
+    border:1px solid #0071e3;
+    color: #0071e3;
+
+
+}
+#left1 div button + button:hover{
+    background-color: #0071e3;
+    color:#fff;
+
+}
+#right1{
+    /*border: 5px solid green;*/
+    height: inherit;
+    flex: 1;
+    background-image: url("./image/iphone.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: Flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 60px;
+    cursor: pointer;
+}
+#right1 h3{
+    font-size: 32px;
+    font-weight: 600;
+    color:rgb(29,29,31);
+}
+#right1 h3 svg{
+    position:relative;
+    top:11px;
+    height:40px;
+    width:30px;
+}
+
+#right1 p{
+    font-size:19px;
+    font-weight: 400;
+    color:rgb(29,29,31);
+    padding-top: 10px;
+}
+#right1  button{
+    margin-top: 10px;
+    padding: 12px 17px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #0071e3;
+    color:#fff;
+    
+
+}
